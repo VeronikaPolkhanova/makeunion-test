@@ -1,0 +1,26 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+
+  & button {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 80, 80);
+    padding: 12px 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.todoValue {
+  font-size: 20px;
+  margin: 0;
+  cursor: pointer;
+
+  &.done {
+    text-decoration: line-through;
+    color: rgb(135, 135, 135);
+  }
+}

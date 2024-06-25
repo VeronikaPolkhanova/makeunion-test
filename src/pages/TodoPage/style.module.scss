@@ -1,0 +1,56 @@
+.todoPage {
+  margin: 50px 20px;
+  width: 700px;
+}
+
+.todoList {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todosCount {
+  border-top: 1px solid #04aa6d;
+  display: flex;
+  gap: 5px;
+  justify-content: end;
+}
+
+.emtyLabel {
+  color: rgb(135, 135, 135);
+}
+
+.inputContainer {
+  display: flex;
+  gap: 5px;
+
+  & input {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+  }
+
+  & button {
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.validationMessage {
+  color: red;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 0 0 0;
+
+  &.isVisible {
+    opacity: 0;
+  }
+}
