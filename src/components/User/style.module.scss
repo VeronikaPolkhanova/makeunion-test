@@ -1,0 +1,27 @@
+.user {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+  & img {
+    width: 300px;
+    border-radius: 50%;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  & .biography {
+    font-style: italic;
+    max-width: 300px;
+  }
+
+  & p {
+    margin: 0;
+  }
+}

@@ -1,0 +1,18 @@
+.usersList {
+  margin: 0;
+  padding: 0;
+  list-style: decimal;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  & a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

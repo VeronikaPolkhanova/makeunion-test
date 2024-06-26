@@ -1,6 +1,10 @@
 .todoPage {
   margin: 50px 20px;
   width: 700px;
+
+  @media (max-width: 800px) {
+    width: -webkit-fill-available;
+  }
 }
 
 .todoList {
@@ -20,7 +24,7 @@
 }
 
 .emtyLabel {
-  color: rgb(135, 135, 135);
+  color: #a3a3a3;
 }
 
 .inputContainer {
@@ -37,15 +41,20 @@
   & button {
     background-color: #04aa6d;
     border: none;
-    color: white;
+    color: #ffffff;
     padding: 12px 20px;
     text-decoration: none;
+    transition: all 3ms;
     cursor: pointer;
+
+    &:hover {
+      background-color: #01a166;
+    }
   }
 }
 
 .validationMessage {
-  color: red;
+  color: #ff6d59;
   font-size: 14px;
   margin: 0;
   padding: 5px 0 0 0;

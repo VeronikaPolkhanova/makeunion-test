@@ -7,10 +7,15 @@
   & button {
     background-color: transparent;
     border: none;
-    color: rgb(255, 80, 80);
+    color: #ff6d59;
     padding: 12px 20px;
+    font-weight: 600;
     text-decoration: none;
     cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

@@ -69,7 +69,7 @@ const TodoPage = () => {
         className={`${classes.validationMessage} ${
           isValid ? classes.isVisible : ""
         }`}>
-        Imposible to add empty value
+        Impossible to add empty value
       </p>
       {todos.length ? (
         <React.Fragment>
