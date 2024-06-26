@@ -36,7 +36,7 @@ const User = () => {
           alt="user avatar"
         />
       </div>
-      <address className={classes.info}>
+      <div className={classes.info}>
         <h2>{user?.name}</h2>
         <p>Username: {user?.username}</p>
         <p>
@@ -44,7 +44,7 @@ const User = () => {
         </p>
         <p>Phone: {user?.phone}</p>
         <article className={classes.biography}>{biography}</article>
-      </address>
+      </div>
     </div>
   );
 };
